@@ -1,0 +1,17 @@
+Hey , you are sending request to correct server.
+
+To update database                          ==> 13.58.188.112:3000/app/update/?name="objectname withou quotes"&state="1 or 0"
+
+To ask a query from app                     ==> 13.58.188.112:3000/app/que/?name="objectname withou quotes"
+
+To get all                                  ==> 13.58.188.112:3000/app/get_all
+
+To send a req from R-pi                     ==> 13.58.188.112:3000/rpi/get_all
+
+{the above request shows the state of
+all appliances present in the Database}
+
+To send a req from R-pi to know the         ==> 13.58.188.112:3000/rpi/que?name="objectname without quotes"
+state of just one appliance
+
+++++++++  NOTE : If any changes occur in the database the server polls back the R-pi will the "get_all" data , not the individual element .  ++++++++ 
